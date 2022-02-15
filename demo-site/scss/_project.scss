@@ -1,0 +1,128 @@
+/*====================================
+Project css
+ ====================================*/
+.project-area {
+  .project-item {
+    background-size: cover;
+    background-position: top left;
+    min-height: 550px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+
+    .project-content {
+      .single-content {
+        background: $theme-color-one;
+        bottom: 0;
+        left: 0;
+        display: inline-block;
+        padding: 39px 30px 39px;
+        opacity: 0;
+        position: absolute;
+        .content-list {
+          .list-item {
+            color: $theme-color-white;
+          }
+        }
+      }
+    }
+  }
+  .slick-slider {
+    .slick-prev {
+      position: absolute;
+      bottom: -70px;
+      left: 0;
+      border: transparent;
+      padding: 15px;
+      width: 20%;
+      display: inline-block;
+
+      color: $theme-color-white;
+      background: $theme-color-one;
+    }
+    .slick-next {
+      position: absolute;
+      bottom: -70px;
+      left: 240px;
+      border: transparent;
+      padding: 15px;
+      width: 20%;
+      display: inline-block;
+      color: $theme-color-white;
+      background: $theme-color-one;
+    }
+  }
+
+  .slick-current {
+    .project-item {
+      transition: all 1s ease-out;
+
+      .project-content {
+        .single-content {
+          transition: all 1s ease-out;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .project-area {
+    .project-item {
+      .project-content {
+        .single-content {
+          .content-list {
+            .list-item {
+              p {
+                font-size: 12px;
+              }
+              h4 {
+                font-size: 14px;
+              }
+              color: $theme-color-white;
+            }
+          }
+        }
+      }
+    }
+    .slick-slider {
+      .slick-prev {
+        font-size: 10px;
+      }
+      .slick-next {
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  .project-area {
+    .project-item {
+      .project-content {
+        .single-content {
+          .content-list {
+            .list-item {
+              p {
+                font-size: 12px;
+              }
+              h4 {
+                font-size: 14px;
+              }
+              color: $theme-color-white;
+            }
+          }
+        }
+      }
+    }
+    .slick-slider {
+      .slick-prev {
+        font-size: 10px;
+      }
+      .slick-next {
+        font-size: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.project-section-heading {
+  h2 {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline;
+    color: $theme-color-one;
+  }
+  .overlay {
+    text-align: left;
+    background-color: $theme-color-one;
+    height: 3px;
+    width: 25px;
+    margin-bottom: 4px;
+    display: inline-block;
+  }
+}
+.project-paragraph {
+  p {
+    color: $theme-color-two;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+  }
+}
+.category {
+  background: rgba($theme-color-one, 0.3);
+
+  padding: 30px 30px;
+}
+.category-text {
+  color: $theme-color-one;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+.project-button {
+  margin: 8px;
+  .btn {
+    height: 50px;
+    width: 150px;
+    font-size: 13px;
+    color: $theme-color-white;
+    background: $theme-color-one;
+    margin: auto;
+    border-radius: unset;
+    border: 2px solid $theme-color-one;
+    transition: all 0.3s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      background: $theme-color-white;
+      color: $theme-color-one;
+      border: 2px solid $theme-color-one;
+      transition: all 0.3s ease-in;
+    }
+  }
+}

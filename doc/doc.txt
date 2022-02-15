@@ -1,0 +1,92 @@
+<p>Garth - Bootstrap 5 Gardening Template. This template is suitable for anyone who is looking for a Bootstrap 5 HTML Template, Gardening, Multipage</p>
+
+<p>Garth is suitable for anyone who is looking for a Bootstrap template, Multipage. Most importantly, this Gardening HTML5 template facilitates customization and enables you to set up an excellent and Gardening website effortlessly. In a word, Garth - Bootstrap 5 Gardening Template is undeniably a perfect choice to go ahead with your online Gerdening Business smoothly without any hassle.</p>
+
+    <h3>Sections or Blocks of Garth</h3>
+    <ul>
+      <li>Navbar</li>
+      <li>Main Banner</li>
+      <li>About Us</li>
+      <li>Service</li>
+      <li>Project</li>
+      <li>Blogs</li>
+      <li>ReviewsTestimonial</li>
+     
+      <li>Footer</li>
+      <li>About Page</li>
+      <li>Service Page</li>
+      <li>Project Page</li>
+      <li>FAQ's Page</li>
+      <li>Blog Page</li>
+      <li>Reviews Page</li>
+      <li>Contact Page</li>
+
+    </ul>
+
+    <h3>Features of Garth</h3>
+    <ul>
+      <li>W3c Valid Markup HTML</li>
+      <li>Fully Responsive on any Device</li>
+      <li>Built With Bootstrap v5.0.0</li>
+      <li>Clean, Modern & Beautiful Design</li>
+      <li>
+        Cross-browser Compatible with Edge, IE11+, Firefox, Safari, Opera,
+        Chrome
+      </li>
+      <li>Google Fonts</li>
+      <li>font-awesome</li>
+      <li>Smooth Transition Effects</li>
+      <li>Bootstrap Components Compatible</li>
+      <li>Well Commented Code</li>
+      <li>Well Documentation</li>
+      <li>Easy Customization</li>
+      <li>Quick support</li>
+    </ul>
+
+    <h3>Files included</h3>
+    <ul>
+      <li>HTML Files</li>
+      <li>Included font-awesome</li>
+      <li>Supporting CSS,SCSS, JS files</li>
+      <li>Documentation in HTML</li>
+    </ul>
+
+    <h3>Font Used</h3>
+    <ul>
+      <li>
+        <a
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+          >Poppins</a
+        >
+      </li>
+ 
+      </li>
+    </ul>
+
+    <h3>Icon Used:</h3>
+    <ul>
+      <li>
+          <a href="https://fontawesome.com/icons?d=gallery&p=1">
+                  Font-awesome v5.15.3</a
+                >
+      </li>
+    </ul>
+
+    <h3>Credits</h3>
+    <ul>
+      <li>
+        <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap v5.0.0 Framework</a>
+      </li>
+      <li>
+        <a href="https://www.google.com/fonts"> Google Fonts</a>
+      </li>
+      <li>
+           <a href="https://fontawesome.com/icons?d=gallery&p=1">
+                  Font-awesome v5.15.3</a
+                >
+      </li>
+  
+    </ul>
+
+    <h3>Support</h3>
+    <p>If you have any queries or need any special customizing or help for using this template please feel free to contact us via info@theThemely.com. If you have a moment, please rate our item, We will love it very much! Thank you.</p>

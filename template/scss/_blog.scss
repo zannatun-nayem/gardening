@@ -1,0 +1,193 @@
+.blog-area {
+  .single-blog-area {
+    .blog-img {
+      position: relative;
+      &::before {
+        background-color: rgba(0, 0, 0, 0.7);
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transform: scale(0);
+        transition: all 0.5s ease 0s;
+        width: 100%;
+        z-index: 1;
+      }
+      .blog-post-date {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        transition: all 1s ease 0s;
+        width: 100%;
+        z-index: 2;
+        .blog-post-date-info {
+          background-color: $theme-color-one;
+          color: $theme-color-white;
+          font-weight: 600;
+          left: 0;
+          padding: 5px 10px;
+          position: absolute;
+          text-transform: uppercase;
+          top: 50%;
+          transform: translate(0, -50%);
+          transition: 0.5s;
+          opacity: 0;
+          span {
+            display: block;
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .blog-content {
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: 0.5s;
+      h2 {
+        color: $theme-color-two;
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 10px;
+        transition: all 1s ease 0s;
+        letter-spacing: 0.5px;
+      }
+      p {
+        color: $theme-color-two;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 400;
+      }
+
+      a {
+        margin: 0;
+        text-decoration: none;
+      }
+
+      .blog-review {
+        margin-bottom: 15px;
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            color: $theme-color-two;
+            display: inline-block;
+            font-size: 13px;
+            line-height: 20px;
+            margin-right: 5px;
+            letter-spacing: 0.5px;
+            .fa {
+              font-size: 13px;
+              padding-right: 3px;
+              color: $theme-color-one;
+            }
+            a {
+              color: $theme-color-two;
+            }
+          }
+        }
+      }
+      .blog-btn {
+        margin-top: 15px;
+        width: 160px;
+        height: 50px;
+        display: inline-block;
+        color: $theme-color-white;
+        border-radius: 30px;
+        text-transform: capitalize;
+        background-color: $theme-color-one;
+        font-weight: 600;
+        text-align: center;
+        line-height: 50px;
+        position: relative;
+        overflow: hidden;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+    }
+  }
+  .slick-slider {
+    .slick-arrow {
+      opacity: 0;
+    }
+    .slick-prev {
+      opacity: 0;
+    }
+
+    .slick-next {
+      opacity: 0;
+    }
+  }
+
+  .slick-active {
+    .single-blog-area {
+      .blog-post-date {
+        .blog-post-date-info {
+          transition: all 0.5s ease-in-out;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .blog-area {
+    .single-blog-area {
+      .blog-content {
+        padding: 20px;
+        margin-bottom: 20px;
+        transition: 0.5s;
+        h2 {
+          color: $theme-color-two;
+          font-size: 14px;
+        }
+        p {
+          color: $theme-color-two;
+          font-size: 16px;
+          line-height: 32px;
+          font-weight: 400;
+        }
+
+        a {
+          margin: 0;
+          text-decoration: none;
+        }
+
+        .blog-review {
+          margin-bottom: 15px;
+          ul {
+            margin: 0;
+            padding: 0;
+            li {
+              color: $theme-color-two;
+              display: inline-block;
+              font-size: 10px;
+              line-height: 20px;
+              margin-right: 5px;
+              letter-spacing: 0.5px;
+              .fa {
+                font-size: 10px;
+                padding-right: 3px;
+                color: $theme-color-one;
+              }
+              a {
+                color: $theme-color-two;
+              }
+            }
+          }
+        }
+        .blog-btn {
+          margin-top: 12px;
+          width: 120px;
+          height: 40px;
+          line-height: 35px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+/*---Testimonial 02---*/
+.review {
+  .single-review {
+    background: $theme-color-white;
+    padding: 40px 60px;
+
+    margin: 0px 20px 40px 20px;
+    position: relative;
+    -webkit-box-shadow: 0 10px 30px rgba(47, 72, 88, 0.1);
+    box-shadow: 0 10px 30px rgba(47, 72, 88, 0.1);
+    border-radius: 10px;
+    p {
+      padding: 0px 40px;
+      font-size: 18px;
+      line-height: 32px;
+      color: $theme-color-two;
+      font-weight: 400;
+      font-style: italic;
+    }
+    &:before {
+      content: "\f10d";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
+      font-size: 60px;
+      color: rgba($theme-color-one, 0.4);
+      opacity: 0.25;
+      position: absolute;
+      top: 45px;
+      left: 20px;
+    }
+  }
+
+  .review-meta {
+    margin-top: 30px;
+  }
+
+  .review-text {
+    h4 {
+      padding: 0px 40px;
+      font-size: 17px;
+      line-height: 27px;
+      color: $theme-color-one;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    p {
+      padding: 0px 40px;
+      font-size: 12px;
+      line-height: 17px;
+      color: $theme-color-two;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 0px;
+    }
+  }
+  .slick-slider {
+    .slick-arrow {
+      opacity: 0;
+    }
+    .slick-prev {
+      opacity: 0;
+    }
+
+    .slick-next {
+      opacity: 0;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .review {
+    .single-review {
+      p {
+        font-size: 12px;
+        line-height: 22px;
+      }
+      &:before {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    .review-text {
+      h4 {
+        font-size: 12px;
+        line-height: 17px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 17px;
+      }
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  .review {
+    .single-review {
+      padding: 30px 40px;
+      p {
+        font-size: 16px;
+      }
+      &:before {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    .review-text {
+      h4 {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .review {
+    .single-review {
+      padding: 30px 40px;
+      p {
+        font-size: 16px;
+      }
+      &:before {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    .review-text {
+      h4 {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+  }
+}

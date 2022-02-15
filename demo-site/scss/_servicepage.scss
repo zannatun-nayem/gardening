@@ -1,0 +1,34 @@
+.service-area {
+  .service-section {
+    .Service-page-title {
+      display: inline-block;
+      background: $theme-color-one;
+      padding: 10px 30px;
+      font-size: 26px;
+      color: $theme-color-white;
+      line-height: 36px;
+      margin-bottom: 25px;
+      margin-top: 20px;
+    }
+    .mission-section {
+      padding: 30px;
+      margin-top: 20px;
+    }
+  }
+  img {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 575.98px) {
+  .service-area {
+    .service-section {
+      p {
+        font-size: 14px;
+        strong {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

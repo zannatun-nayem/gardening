@@ -1,0 +1,111 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  .content {
+    i {
+      font-size: 40px;
+      font-weight: 600;
+      color: $theme-color-one;
+      margin-bottom: 12px;
+    }
+    h2 {
+      font-size: 25px;
+      font-weight: 700;
+      color: $theme-color-one;
+    }
+    p {
+      font-weight: 400;
+      color: $theme-color-two;
+    }
+  }
+}
+form {
+  .form-control {
+    padding: 15px;
+    &:focus {
+      border: 2px solid $theme-color-one;
+      box-shadow: unset;
+    }
+  }
+  .btn-primary {
+    color: $theme-color-white;
+    background-color: $theme-color-one;
+    border-color: $theme-color-one;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: $theme-color-white;
+      border-color: $theme-color-one;
+      color: $theme-color-one;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .contact-page {
+    .content {
+      i {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        color: $theme-color-one;
+      }
+      p {
+        text-align: center;
+        font-weight: 400;
+        color: $theme-color-two;
+      }
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  .contact-page {
+    .content {
+      i {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        color: $theme-color-one;
+      }
+      p {
+        text-align: center;
+        font-weight: 400;
+        color: $theme-color-two;
+      }
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .contact-page {
+    .content {
+      i {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        color: $theme-color-one;
+      }
+      p {
+        text-align: center;
+        font-weight: 400;
+        color: $theme-color-two;
+      }
+    }
+  }
+}
